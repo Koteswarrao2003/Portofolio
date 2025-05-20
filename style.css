@@ -607,7 +607,7 @@ input[type="submit"]:hover{
     border-radius: 10px;
     border: 1px solid mediumspringgreen;
     font-size: x-large;
-    width: 15%;
+    width: 20%;
     transition: all 0.3s ease;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     align-items: center;
@@ -741,4 +741,31 @@ input[type="submit"]:hover{
 .c4{
     height: 120px;
     padding-top: 30px;
+}
+
+.mmiddle{
+    display: flex;
+}
+
+.rright{
+    padding-top: 20px;
+    padding-left: 50px;
+
+}
+
+.skl{
+    height: 600px;
+    width: 500px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.skl:hover {
+    transform: scale(1.02); 
+}
+
+
+.lleft{
+    padding-top: 50px;
+    
 }
