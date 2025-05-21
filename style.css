@@ -977,6 +977,38 @@ input[type="submit"]:hover{
     
   }
 
+  .name{
+    font-size: large;
 
+  }
 
+  .co{
+    font-size: x-large;
+  }
+
+  .Contact{
+    margin-left: -20px;
+  }
+
+  .icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .input{
+    width: 150px;
+  }
+
+  .right .submit{
+    width: 285px;
+  }
+
+  .copy{
+    font-size: large;
+  }
+
+  .rights{
+    font-size: x-large;
+  }
 }
