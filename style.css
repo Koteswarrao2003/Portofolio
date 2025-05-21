@@ -113,25 +113,18 @@
 }
 
 
-.three{
+
+.one,.two,.three{
     padding-right: 2%;
     padding-top: 25px;
-}
-.one{
-    padding-right: 2%;
-    padding-top: 25px;
-}
-.two{
-    padding-right: 2%;
-    padding-top: 25px;
+    text-align: justify;
 }
 
-.about{
+
+.it{
     display: flex;
     padding-left: 5%;
-  
     padding-right: 5%;
-
     padding-bottom: 12%;
     font-size: x-large;
     color: #fff;
@@ -154,6 +147,7 @@
 }
 .information{
     padding-left: 5%;
+    
     
 }
 
@@ -435,9 +429,14 @@ h1{
     text-align: center;
     padding-left: 2%;
     font-size: large;
-    padding: 5px;
-    padding-right: 2%;
-    padding-top: 10px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+   
+    text-align: justify;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
 }
 
@@ -768,4 +767,216 @@ input[type="submit"]:hover{
 .lleft{
     padding-top: 50px;
     
+}
+
+
+@media (max-width:768px) {
+  .mmiddle{
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+  .details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -10px;
+  }
+
+  .it{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .one,.two,.three{
+    text-align: justify;
+    width: 300px;
+  }
+
+  .information{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: -15px;
+    
+  }
+
+  .photo{
+    padding-top: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10%;
+  }
+
+  .photo img{
+    height: 100%;
+    width: 70%;
+    
+  }
+
+  .rass{
+    justify-content: center;
+    align-items: center;
+    margin-left: -720px;
+  }
+
+  .rasana{
+    width: 50px;
+  }
+  
+  .navbar{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .nav-right a{
+    display: none;
+    }
+
+  .Wel{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-left: -50px;
+    margin-top:20px;
+    }
+
+  .cert,.certificate  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .Projects{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Contact{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Skills{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Seperate{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hi{
+    width: 150px;
+    font-size: large;
+  }
+
+  .ko{
+    width: 400px;
+    font-size: x-large;
+  }
+
+  .And{
+    width: 400px;
+    font-size: large;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+  }
+
+  .mutton{
+    width: 800px;
+  }
+
+  .images{
+    gap: 20px;
+  }
+
+  .images i{
+    font-size: 50px;
+    justify-content: center;
+    align-items: center;
+    margin-left: -10px;
+  }
+
+  .skl{
+    height: 150%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -80px;
+  }
+
+  .ek,.dho,.Teen,.char{
+    padding-top: 70px;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-bottom: -30px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 150px;
+  }
+
+  .sym{
+    margin-top: -35px;
+  }
+
+  .satish{
+    text-align: center;
+    width: 200px;
+    font-size: large;
+    margin-left: -60px;
+  }
+
+  .ek .Web{
+    width: 200px;
+    margin-left: -60px;
+  }
+
+  .Dev{
+    margin-left: -30px;
+    width: 150px;
+  }
+
+  .problem{
+    margin-left: -60px;
+    width: 200px;
+  }
+
+  .Code{
+    display: none;
+  }
+
+  .Knowledge{
+    padding-top: 50px;
+  }
+
+  .Project{
+    width: 300px;
+  }
+
+  .Project img{
+    width: 300px;
+  }
+
+  .chec{
+    margin-left: 50px;
+    
+  }
+
+
+
 }
