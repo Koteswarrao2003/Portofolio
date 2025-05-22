@@ -606,7 +606,7 @@ input[type="submit"]:hover{
     border-radius: 10px;
     border: 1px solid mediumspringgreen;
     font-size: x-large;
-    width: 80%;
+    width: 30%;
     transition: all 0.3s ease;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     align-items: center;
@@ -899,7 +899,15 @@ input[type="submit"]:hover{
   }
 
   .mutton{
-    width: 100%;
+    margin-bottom: 20%;
+  }
+
+  .mutton .sudha{
+    width: 150%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -60%;
   }
 
   .images{
@@ -911,6 +919,7 @@ input[type="submit"]:hover{
     justify-content: center;
     align-items: center;
     margin-left: -10px;
+    
   }
 
   .skl{
