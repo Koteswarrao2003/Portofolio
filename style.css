@@ -746,7 +746,7 @@ input[type="submit"]:hover{
 
 .mmiddle{
     display: flex;
-    animation: fadeIn 1s ease-in-out forwards;
+    animation: fadeIn 4s ease-in-out forwards;
 }
 @keyframes fadeIn {
 	from {
