@@ -211,13 +211,12 @@ span{
 }
 
 .SkillOne{
-
     color: white;
     padding-left: 2%;
     padding-right: 2%;
     padding-bottom: 0.5%;
-   
 }
+
 
 
 .vijay{
@@ -230,7 +229,7 @@ span{
 }
 
 h1{
-    text-align:center:
+    text-align:center;
     
 }
 
@@ -239,6 +238,7 @@ h1{
     gap: 30px;
     padding-top: 3%;
     padding-left: 2%;
+    
 }
 
 .Skills i{
@@ -259,6 +259,7 @@ h1{
     box-shadow: 3px 3px 5px 0px springgreen;
     transition: all 0.3s ease;
     cursor: pointer;
+    
 }
 
 .ek:hover{
@@ -745,13 +746,27 @@ input[type="submit"]:hover{
 
 .mmiddle{
     display: flex;
+    animation: fadeIn 1s ease-in-out forwards;
 }
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+		transform: translateY(50px);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
 
 .rright{
     padding-top: 20px;
     padding-left: 50px;
-
+    
 }
+
+
 
 .skl{
     height: 600px;
@@ -769,7 +784,6 @@ input[type="submit"]:hover{
     padding-top: 50px;
     
 }
-
 
 @media (max-width:768px) {
 
