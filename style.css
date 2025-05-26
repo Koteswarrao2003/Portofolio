@@ -806,6 +806,7 @@ input[type="submit"]:hover{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-top: 10%;
   }
   
   .one,.two,.three{
